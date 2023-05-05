@@ -1,0 +1,15 @@
+# Model hyperparameters of
+words_dim: 300
+embed_dim: 300
+word_hidden_dim: 200
+sent_hidden_dim: 200
+usr_dim: 100
+prd_dim: 100
+pre_pooling_dim: 50
+dropout: 0.0
+pre_classifier_dim: 50
+hidden_dropout_prob: 0.1
+bidirectional: True
+attention_probs_dropout_prob: 0.1
+gate_dropout: 0.0
+num_v: 50

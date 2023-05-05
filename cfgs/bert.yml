@@ -1,0 +1,11 @@
+model: bert
+prd_dim: 128
+usr_dim: 128
+strategy: both
+more_layers: 6
+max_length: 512
+moniter_per_step: 1000
+warmup_proportion: 0.1
+# gradient_accumulation: 4
+# gradient_accumulation_steps: 4
+hidden_states: 768
